@@ -1,0 +1,40 @@
+# Thư mục node_modules
+/nodejs
+
+# Các file log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# File môi trường
+.env
+
+# Build directory
+dist/
+build/
+
+# Các thư mục tạm thời
+tmp/
+temp/
+
+# Coverage directories (thư mục chứa báo cáo coverage khi test)
+coverage/
+
+# Thư mục chứa tệp cache
+.cache/
+
+# Thư mục .next cho Next.js hoặc .nuxt cho Nuxt.js (nếu bạn dùng các framework này)
+.next/
+.nuxt/
+
+# Tệp lock của các package managers (npm, yarn)
+package-lock.json
+yarn.lock
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
